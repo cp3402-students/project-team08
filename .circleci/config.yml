@@ -1,4 +1,19 @@
-# General Settings
-name: "My Application"
-version: 1.0
-description: "This is a test YAML configuration file."
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: "circleci/python:3.8"
+    
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: pip install -r requirements.txt
+      # Add more steps as needed for your build process
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
