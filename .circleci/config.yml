@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: pip install -r requirements.txt
+          #command: pip install -r requirements.txt
       # Add more steps as needed for your build process
 
 workflows:
