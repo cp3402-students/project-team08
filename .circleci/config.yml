@@ -1,1 +1,4 @@
-test 1
+# General Settings
+name: "My Application"
+version: 1.0
+description: "This is a test YAML configuration file."
