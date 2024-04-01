@@ -32,11 +32,10 @@ jobs:
 
       # Debugger
       - run:
-          name: Deploy to Website via SSH (Debug)
+          name: Deploy to Website via SSH
           command: |
             set -x
-            ls -l .circleci/deploy.sh
-            .circleci/deploy.sh  # Execute the script using its relative path
+            .circleci/deploy.sh
             set +x
 
 workflows:
