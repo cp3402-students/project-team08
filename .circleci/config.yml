@@ -23,27 +23,18 @@ jobs:
     executor: my-executor
     steps:
       - checkout
-      # Ensure that ~/.ssh directory and known_hosts file exist
+
+      # Ensure that deploy.sh exists and has execute permission
       - run:
-          name: Create SSH directory and known_hosts file
+          name: Check deploy.sh file
           command: |
-            mkdir -p ~/.ssh
-            touch ~/.ssh/known_hosts
+            ls -l deploy.sh
+            chmod +x deploy.sh
 
       # Debugger
       - run:
           name: Debug
           command: ls -l
-
-      # Change permissions of private key file
-      - run:
-          name: Change permissions of private key file
-          command: chmod 400 .circleci/LightsailDefaultKey-ap-southeast-2.pem
-
-      # Add SSH key to known_hosts
-      - run:
-          name: Add SSH key to known_hosts
-          command: ssh-keyscan -H u3aonline.com >> ~/.ssh/known_hosts
 
       # SSH into your server and execute deployment commands
       - run:
