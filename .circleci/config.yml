@@ -40,7 +40,7 @@ jobs:
       - run:
           name: Deploy to Website via SSH
           command: |
-            ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem root@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
+            ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
           # Replace "bitnami@u3aonline.com", "/opt/bitnami/apache2/htdocs/", and "./deploy.sh" with your actual values.
   
 
