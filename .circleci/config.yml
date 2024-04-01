@@ -27,7 +27,7 @@ jobs:
       - run:
             name: Deploy to Website via SSH
             command: |
-                ssh -i ~/.ssh/lightsail_key.pem bitnami@YOUR_LIGHTSAIL_IP "cd /path/to/your/project && ./deploy.sh"
+                ssh -i ~/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
             # Replace "user", "your-server-ip-address", "/path/to/your/website", "git pull origin master", and "./deploy.sh" with your actual values.
 
 
