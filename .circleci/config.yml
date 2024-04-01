@@ -48,9 +48,10 @@ jobs:
       - run:
           name: Update known_hosts file
           command: |
+            mkdir -p ~/.ssh
+            touch ~/.ssh/known_hosts  # Create an empty known_hosts file
             ssh-keygen -R "u3aonline.com"
-            echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAieRQAmZMo1YOCTXjNDSaZRVCWVOZS754SxjTtf0fe1" >> ~/.ssh/known_hosts
-
+            echo "u3aonline.com ssh-ed25519 SHA256:0Xguj0ZQ9CjbB6PstfyS8RXt1O7Oi/xsNSMKvQPp6YY" >> ~/.ssh/known_hosts
       # SSH into your server and execute deployment commands
       - run:
           name: Deploy to Website via SSH
