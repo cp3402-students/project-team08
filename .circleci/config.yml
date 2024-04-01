@@ -23,16 +23,23 @@ jobs:
     executor: my-executor
     steps:
       - checkout
-# Debugger
+      # SSH key scan
       - run:
-            name: Debug
-            command: ls -l
-# SSH into your server and execute deployment commands
+          name: Add SSH key to known_hosts
+          command: ssh-keyscan -H u3aonline.com >> ~/.ssh/known_hosts
+
+      # Debugger
       - run:
-            name: Deploy to Website via SSH
-            command: |
-                ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
-            # Replace "user", "your-server-ip-address", "/path/to/your/website", "git pull origin master", and "./deploy.sh" with your actual values.
+          name: Debug
+          command: ls -l
+
+      # SSH into your server and execute deployment commands
+      - run:
+          name: Deploy to Website via SSH
+          command: |
+            ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
+          # Replace "bitnami@u3aonline.com", "/opt/bitnami/apache2/htdocs/", and "./deploy.sh" with your actual values.
+  
 
 # Orchestrate our job run sequence
 workflows:
