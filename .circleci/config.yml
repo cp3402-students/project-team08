@@ -28,7 +28,7 @@ jobs:
 <<<<<<< HEAD
             name: Deploy to Website via SSH
             command: |
-               ssh user@2406:da1c:9cb:ca00:389:31c9:eff7:230 "cd /path/to/your/website && git pull origin master && ./deploy.sh"
+                ssh user@2406:da1c:9cb:ca00:389:31c9:eff7:230 "cd /path/to/your/website && git pull origin master && ./deploy.sh"
             # Replace "user", "your-server-ip-address", "/path/to/your/website", "git pull origin master", and "./deploy.sh" with your actual values.
 
 
