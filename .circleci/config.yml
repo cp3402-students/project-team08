@@ -27,15 +27,15 @@ jobs:
       - run:
           name: Check deploy.sh file
           command: |
-            ls -l /opt/bitnami/apache2/htdocs/deploy.sh
-            chmod +x /opt/bitnami/apache2/htdocs/deploy.sh
+            ls -l .circleci/deploy.sh
+            chmod +x .circleci/deploy.sh
 
       # Debugger
       - run:
           name: Deploy to Website via SSH (Debug)
           command: |
             set -x
-            ssh -o StrictHostKeyChecking=no -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "ls -l /opt/bitnami/apache2/htdocs/ && cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
+            ssh -o StrictHostKeyChecking=no -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && .circleci/deploy.sh"
             set +x
 
 workflows:
