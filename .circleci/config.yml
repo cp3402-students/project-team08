@@ -27,7 +27,7 @@ jobs:
       - run:
           name: Deploy to Website via SSH
           command: |
-            ssh user@your-server-ip-address "cd /path/to/your/website && git pull origin master && ./deploy.sh"
+            ssh user@http://13.211.5.114/ "cd /path/to/your/website && git pull origin master && ./deploy.sh"
           # Replace "user", "your-server-ip-address", "/path/to/your/website", "git pull origin master", and "./deploy.sh" with your actual values.
 
 # Orchestrate our job run sequence
