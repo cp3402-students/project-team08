@@ -34,9 +34,9 @@ jobs:
       - run:
           name: Deploy to Website via SSH (Debug)
           command: |
-            #set -x
-            #ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
-            #set +x
+            set -x
+            ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
+            set +x
           
 
       # Create .ssh directory with correct permissions
@@ -48,10 +48,9 @@ jobs:
       - run:
           name: Update known_hosts file
           command: |
-            mkdir -p ~/.ssh
-            touch ~/.ssh/known_hosts  
             ssh-keygen -R "u3aonline.com"
             echo "u3aonline.com ssh-ed25519 SHA256:0Xguj0ZQ9CjbB6PstfyS8RXt1O7Oi/xsNSMKvQPp6YY" >> ~/.ssh/known_hosts
+
       # SSH into your server and execute deployment commands
       - run:
           name: Deploy to Website via SSH
