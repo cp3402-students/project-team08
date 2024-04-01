@@ -35,6 +35,11 @@ jobs:
           name: Debug
           command: ls -l
 
+      # Change permissions of private key file
+      - run:
+          name: Change permissions of private key file
+          command: chmod 400 .circleci/LightsailDefaultKey-ap-southeast-2.pem
+
       # Add SSH key to known_hosts
       - run:
           name: Add SSH key to known_hosts
