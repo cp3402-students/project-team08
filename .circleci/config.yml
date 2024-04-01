@@ -36,6 +36,13 @@ jobs:
           name: Debug
           command: ls -l
 
+      # Manually add host key fingerprint to known_hosts
+      - run:
+          name: Add host key fingerprint to known_hosts
+          command: |
+            echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC/3vyIPzWAA..." >> ~/.ssh/known_hosts
+          # Replace "u3aonline.com" and "AAAAC3NzaC1lZDI1NTE5AAAAIC/3vyIPzWAA..." with the actual host and fingerprint.
+
       # SSH into your server and execute deployment commands
       - run:
           name: Deploy to Website via SSH
