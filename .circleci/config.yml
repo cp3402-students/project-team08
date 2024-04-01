@@ -31,11 +31,7 @@ jobs:
               ssh user@2406:da1c:9cb:ca00:389:31c9:eff7:230 "cd /path/to/your/website && git pull origin master && ./deploy.sh"
             # Replace "user", "your-server-ip-address", "/path/to/your/website", "git pull origin master", and "./deploy.sh" with your actual values.
 =======
-          name: Deploy to Website via SSH
-          command: |
-            ssh bitnami@http://13.211.5.114/ "cd /opt/bitnami/apache2/htdocs/ && git pull origin master && ./deploy.sh"
-          # Replace "user", "your-server-ip-address", "/path/to/your/website", "git pull origin master", and "./deploy.sh" with your actual values.
->>>>>>> cbf229c795b8bd7d7fa355a931a4f741947df043
+   
 
 # Orchestrate our job run sequence
 workflows:
