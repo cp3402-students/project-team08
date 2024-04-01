@@ -35,18 +35,16 @@ jobs:
           name: Debug
           command: ls -l
 
-      # Create .ssh directory and known_hosts file
+      # Create .ssh directory with correct permissions
       - run:
-          name: Create .ssh directory and known_hosts file
-          command: |
-            mkdir -p ~/.ssh
-            touch ~/.ssh/known_hosts
+          name: Create .ssh directory
+          command: mkdir -p ~/.ssh && chmod 700 ~/.ssh
 
       # Update the known_hosts file
       - run:
           name: Update known_hosts file
           command: |
-            ssh-keygen -f "/home/circleci/.ssh/known_hosts" -R "u3aonline.com"
+            ssh-keygen -R "u3aonline.com"
             echo "u3aonline.com ssh-ed25519 SHA256:0Xguj0ZQ9CjbB6PstfyS8RXt1O7Oi/xsNSMKvQPp6YY" >> ~/.ssh/known_hosts
 
       # SSH into your server and execute deployment commands
