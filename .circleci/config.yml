@@ -34,9 +34,9 @@ jobs:
       - run:
           name: Deploy to Website via SSH (Debug)
           command: |
-            set -x
-            ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
-            set +x
+            #set -x
+            #ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
+            #set +x
           
 
       # Create .ssh directory with correct permissions
