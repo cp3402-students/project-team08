@@ -23,15 +23,22 @@ jobs:
     executor: my-executor
     steps:
       - checkout
-      # SSH key scan
+      # Ensure that ~/.ssh directory and known_hosts file exist
       - run:
-          name: Add SSH key to known_hosts
-          command: ssh-keyscan -H u3aonline.com >> ~/.ssh/known_hosts
+          name: Create SSH directory and known_hosts file
+          command: |
+            mkdir -p ~/.ssh
+            touch ~/.ssh/known_hosts
 
       # Debugger
       - run:
           name: Debug
           command: ls -l
+
+      # Add SSH key to known_hosts
+      - run:
+          name: Add SSH key to known_hosts
+          command: ssh-keyscan -H u3aonline.com >> ~/.ssh/known_hosts
 
       # SSH into your server and execute deployment commands
       - run:
