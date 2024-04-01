@@ -25,7 +25,7 @@ jobs:
       - checkout
       # SSH into your server and execute deployment commands
       - run:
-<<<<<<< HEAD
+
             name: Deploy to Website via SSH
             command: |
                 ssh bitnami@2406:da1c:9cb:ca00:389:31c9:eff7:230 "cd /opt/bitnami/apache2/htdocs/ && git pull origin master && ./deploy.sh"
