@@ -35,6 +35,13 @@ jobs:
           name: Debug
           command: ls -l
 
+      # Create .ssh directory and known_hosts file
+      - run:
+          name: Create .ssh directory and known_hosts file
+          command: |
+            mkdir -p ~/.ssh
+            touch ~/.ssh/known_hosts
+
       # Update the known_hosts file
       - run:
           name: Update known_hosts file
