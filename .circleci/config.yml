@@ -32,31 +32,26 @@ jobs:
 
       # Debugger
       - run:
-          name: Deploy to Website via SSH (Debug)
-          command: |
-            set -x
-            ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
-            set +x
-          
+          name: Debug
+          command: ls -l
 
       # Create .ssh directory with correct permissions
       - run:
           name: Create .ssh directory
           command: mkdir -p ~/.ssh && chmod 700 ~/.ssh
 
-      # Update the known_hosts file
+      # Update the known_hosts file with the host key fingerprint
       - run:
           name: Update known_hosts file
           command: |
-            ssh-keygen -R "u3aonline.com"
-            echo "u3aonline.com ssh-ed25519 SHA256:0Xguj0ZQ9CjbB6PstfyS8RXt1O7Oi/xsNSMKvQPp6YY" >> ~/.ssh/known_hosts
+            ssh-keyscan -t ed25519 u3aonline.com >> ~/.ssh/known_hosts
 
       # SSH into your server and execute deployment commands
       - run:
           name: Deploy to Website via SSH
           command: |
             ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
-          # Replace "bitnami@u3aonline.com", "/opt/bitnami/apache2/htdocs/", and "./deploy.sh" with your actual values.
+          
 
 workflows:
   build_and_test:
