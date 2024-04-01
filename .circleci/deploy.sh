@@ -2,4 +2,4 @@
 cd /opt/bitnami/apache2/htdocs/
 
 # Pull the latest changes from your Git repository
-git pull origin master
+git pull origin main
