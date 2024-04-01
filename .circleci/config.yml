@@ -35,12 +35,12 @@ jobs:
           name: Debug
           command: ls -l
 
-      # Add host key to known hosts
+      # Update the known_hosts file
       - run:
-          name: Add host key to known hosts
+          name: Update known_hosts file
           command: |
-            mkdir -p ~/.ssh
-            echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICoVOPK9DxxLsRQQXj6lL68EDOMXNMOTwSlYGglz7DRM" >> ~/.ssh/known_hosts
+            ssh-keygen -f "/home/circleci/.ssh/known_hosts" -R "u3aonline.com"
+            echo "u3aonline.com ssh-ed25519 SHA256:0Xguj0ZQ9CjbB6PstfyS8RXt1O7Oi/xsNSMKvQPp6YY" >> ~/.ssh/known_hosts
 
       # SSH into your server and execute deployment commands
       - run:
