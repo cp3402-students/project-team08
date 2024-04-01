@@ -35,6 +35,7 @@ jobs:
           name: Deploy to Website via SSH (Debug)
           command: |
             set -x
+            ls -l .circleci/deploy.sh
             ssh -o StrictHostKeyChecking=no -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && .circleci/deploy.sh"
             set +x
 
