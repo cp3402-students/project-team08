@@ -38,7 +38,9 @@ jobs:
       # Add host key to known hosts
       - run:
           name: Add host key to known hosts
-          command: echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICoVOPK9DxxLsRQQXj6lL68EDOMXNMOTwSlYGglz7DRM" >> ~/.ssh/known_hosts
+          command: |
+            mkdir -p ~/.ssh
+            echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICoVOPK9DxxLsRQQXj6lL68EDOMXNMOTwSlYGglz7DRM" >> ~/.ssh/known_hosts
 
       # SSH into your server and execute deployment commands
       - run:
