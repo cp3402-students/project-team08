@@ -45,8 +45,7 @@ jobs:
           name: Update known_hosts file
           command: |
             ssh-keygen -R "u3aonline.com"
-            echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAieRQAmZMo1YOCTXjNDSaZRVCWVOZS754SxjTtf0fe1
-" >> ~/.ssh/known_hosts
+            echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAieRQAmZMo1YOCTXjNDSaZRVCWVOZS754SxjTtf0fe1" >> ~/.ssh/known_hosts
 
       # SSH into your server and execute deployment commands
       - run:
