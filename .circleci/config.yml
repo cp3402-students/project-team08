@@ -25,10 +25,12 @@ jobs:
       - checkout
       # SSH into your server and execute deployment commands
       - run:
-          name: Deploy to Website via SSH
-          command: |
-            ssh bitnami@http://13.211.5.114/admin "cd /opt/bitnami/apache2/htdocs/ && git pull origin master && ./deploy.sh"
-          # Replace "user", "your-server-ip-address", "/path/to/your/website", "git pull origin master", and "./deploy.sh" with your actual values.
+
+            name: Deploy to Website via SSH
+            command: |
+                ssh  bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && git pull origin master && ./deploy.sh"
+            # Replace "user", "your-server-ip-address", "/path/to/your/website", "git pull origin master", and "./deploy.sh" with your actual values.
+
 
 # Orchestrate our job run sequence
 workflows:
