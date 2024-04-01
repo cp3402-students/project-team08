@@ -1,7 +1,6 @@
 version: 2.1
-# https://circleci.com/docs/sample-config/
 
-executors: # Define an executor
+executors:
   my-executor:
     docker:
       - image: cimg/base:2024.01
@@ -36,12 +35,10 @@ jobs:
           name: Debug
           command: ls -l
 
-      # Manually add host key fingerprint to known_hosts
+      # Add host key to known hosts
       - run:
-          name: Add host key fingerprint to known_hosts
-          command: |
-            echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC/3vyIPzWAA..." >> ~/.ssh/known_hosts
-          # Replace "u3aonline.com" and "AAAAC3NzaC1lZDI1NTE5AAAAIC/3vyIPzWAA..." with the actual host and fingerprint.
+          name: Add host key to known hosts
+          command: echo "u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICoVOPK9DxxLsRQQXj6lL68EDOMXNMOTwSlYGglz7DRM" >> ~/.ssh/known_hosts
 
       # SSH into your server and execute deployment commands
       - run:
@@ -49,9 +46,7 @@ jobs:
           command: |
             ssh -i .circleci/LightsailDefaultKey-ap-southeast-2.pem bitnami@u3aonline.com "cd /opt/bitnami/apache2/htdocs/ && ./deploy.sh"
           # Replace "bitnami@u3aonline.com", "/opt/bitnami/apache2/htdocs/", and "./deploy.sh" with your actual values.
-  
 
-# Orchestrate our job run sequence
 workflows:
   build_and_test:
     jobs:
