@@ -1,1 +1,4 @@
-u3aonline.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAieRQAmZMo1YOCTXjNDSaZRVCWVOZS754SxjTtf0fe1
+mkdir -p ~/.ssh
+touch ~/.ssh/known_hosts  # Create an empty known_hosts file
+ssh-keygen -R "u3aonline.com"
+echo "u3aonline.com ssh-ed25519 SHA256:0Xguj0ZQ9CjbB6PstfyS8RXt1O7Oi/xsNSMKvQPp6YY" >> ~/.ssh/known_hosts
