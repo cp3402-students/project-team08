@@ -1,0 +1,719 @@
+{
+    "dup_type": "lite",
+    "created": "2024-04-03 10:14:13",
+    "version_dup": "1.5.8.1",
+    "version_wp": "6.4.3",
+    "version_db": "11.2.3",
+    "version_php": "8.2.16",
+    "version_os": "Linux",
+    "blogname": "User&#039;s blog",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$0N83sRoKrxAnRGge4huoiePd1nymt3xuDAAAW37Fxjy0p85ACSxPC",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "u3aonline.com",
+            "path": "\/",
+            "blogname": "User&#039;s blog",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "user",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "http:\/\/u3aonline.com",
+            "fullSiteUrl": "http:\/\/u3aonline.com",
+            "uploadPath": false,
+            "fullUploadPath": "\/opt\/bitnami\/wordpress\/wp-content\/uploads",
+            "fullUploadSafePath": "\/opt\/bitnami\/wordpress\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/u3aonline.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "bitnami_wordpress",
+        "tablesBaseCount": 13,
+        "tablesFinalCount": 13,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 271,
+        "tablesSizeOnDisk": 2293760,
+        "tablesList": {
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 216,
+                "insertedRows": 220,
+                "size": 1425408
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 49152
+            },
+            "wp_posts": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 311296
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 19,
+                "insertedRows": 19,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "11.2.3",
+        "versionComment": "Source distribution",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20240403_usersblog",
+        "packageHash": "0992e88-03101413",
+        "secondaryHash": "2969cab-03101413"
+    },
+    "fileInfo": {
+        "dirCount": 3187,
+        "fileCount": 15315,
+        "size": 96944397
+    },
+    "wpInfo": {
+        "version": "6.4.3",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/opt\/bitnami\/wordpress",
+        "targetPaths": [
+            "\/opt\/bitnami\/wordpress"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "user",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/opt\/bitnami\/wordpress\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "\/<v82ft%jU<5Cu>@K1F_}?H&3+el9euQF(mL;jo{cwNk,?B,C8W^*s8dzxKwV;Qm",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "d~xg}rh?K7+l6J*8E34&z 7}C6q~fXN%u3zvC@Z+DWUH-GZG)W{fkAA[ g[13LMm",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "geU+e11@aAPJ\/!@=|q]jI]l6xv]:u:W(ynhFPy({\/[#fc(&wka5Hl}Q4=j*SYZj?",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "Z mgg+5CG<isuPQ}`rp\/0(qBK:sPT-hDQ*~Ar+\/IuQ\/9PxZ&_c!uSs`6h:.?kfiK",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "5*K[* *xR[)R`34[z{V&tNG&T&x%h~F8re}zzWU(,Zy$u($+NMa*KDag@n&o]N^3",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "BhZ[UY*%#BGLKk4^bWYnzZ\/m+Q0}\/U9Setx6oIbH@6]UabbdOu-H])i`UHQnA&In",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": ">(2@SosuPW[9Mq RX)iBKF[F<yWgZxBU^H\/UQ,OdSQIAj-UrBV_iYL2^vHDd9M9u",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "I2i^Nyk13^r4lJp`#I2oc}44s02Y$Z,`\/ufgA4r]6aAeh&)XU`z@?n VL$Uju\/0:",
+                    "inWpConfig": true
+                },
+                "WP_SITEURL": {
+                    "value": "http:\/\/u3aonline.com\/",
+                    "inWpConfig": true
+                },
+                "WP_HOME": {
+                    "value": "http:\/\/u3aonline.com\/",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/u3aonline.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/u3aonline.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/themes\/blankslate",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/themes\/blankslate",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_AUTO_UPDATE_CORE": {
+                    "value": "minor",
+                    "inWpConfig": true
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/u3aonline.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "http:\/\/u3aonline.com",
+                "homeUrl": "http:\/\/u3aonline.com",
+                "loginUrl": "http:\/\/u3aonline.com\/wp-login.php",
+                "contentUrl": "http:\/\/u3aonline.com\/wp-content",
+                "uploadBaseUrl": "http:\/\/u3aonline.com\/wp-content\/uploads",
+                "pluginsUrl": "http:\/\/u3aonline.com\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/u3aonline.com\/wp-content\/mu-plugins",
+                "themesUrl": "http:\/\/u3aonline.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/opt\/bitnami\/wordpress",
+                    "abs": "\/opt\/bitnami\/wordpress",
+                    "wpconfig": "\/opt\/bitnami\/wordpress",
+                    "wpcontent": "\/opt\/bitnami\/wordpress\/wp-content",
+                    "uploads": "\/opt\/bitnami\/wordpress\/wp-content\/uploads",
+                    "plugins": "\/opt\/bitnami\/wordpress\/wp-content\/plugins",
+                    "muplugins": "\/opt\/bitnami\/wordpress\/wp-content\/mu-plugins",
+                    "themes": "\/opt\/bitnami\/wordpress\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/opt\/bitnami\/wordpress",
+                    "abs": "\/opt\/bitnami\/wordpress",
+                    "wpconfig": "\/opt\/bitnami\/wordpress",
+                    "wpcontent": "\/opt\/bitnami\/wordpress\/wp-content",
+                    "uploads": "\/opt\/bitnami\/wordpress\/wp-content\/uploads",
+                    "plugins": "\/opt\/bitnami\/wordpress\/wp-content\/plugins",
+                    "muplugins": "\/opt\/bitnami\/wordpress\/wp-content\/mu-plugins",
+                    "themes": "\/opt\/bitnami\/wordpress\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-spam: Spam Protection",
+                "version": "5.3.2",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic - Anti-spam Team",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-spam: Spam Protection",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-wp-migration\/all-in-one-wp-migration.php": {
+                "slug": "all-in-one-wp-migration\/all-in-one-wp-migration.php",
+                "name": "All-in-One WP Migration",
+                "version": "7.81",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "Migration tool for all your blog data. Import or Export your blog content with a single click.",
+                "title": "All-in-One WP Migration",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-seo-pack\/all_in_one_seo_pack.php": {
+                "slug": "all-in-one-seo-pack\/all_in_one_seo_pack.php",
+                "name": "All in One SEO",
+                "version": "4.5.9.2",
+                "pluginURI": "https:\/\/aioseo.com\/",
+                "author": "All in One SEO Team",
+                "authorURI": "https:\/\/aioseo.com\/",
+                "description": "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 100 million downloads since 2007.",
+                "title": "All in One SEO",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "amp\/amp.php": {
+                "slug": "amp\/amp.php",
+                "name": "AMP",
+                "version": "2.5.3",
+                "pluginURI": "https:\/\/amp-wp.org",
+                "author": "AMP Project Contributors",
+                "authorURI": "https:\/\/github.com\/ampproject\/amp-wp\/graphs\/contributors",
+                "description": "An easier path to great Page Experience for everyone. Powered by AMP. <em class=\"amp-deletion-notice\"><strong>Uninstall Note:<\/strong> To control whether all data from this plugin is deleted at uninstallation, first activate the plugin, go to the Other section on the Settings screen, and set the \u201cDelete plugin data at uninstall\u201d toggle.<\/em>",
+                "title": "AMP",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.8.1",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-analytics-for-wordpress\/googleanalytics.php": {
+                "slug": "google-analytics-for-wordpress\/googleanalytics.php",
+                "name": "Google Analytics for WordPress by MonsterInsights",
+                "version": "8.25.0",
+                "pluginURI": "https:\/\/www.monsterinsights.com\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0",
+                "author": "MonsterInsights",
+                "authorURI": "https:\/\/www.monsterinsights.com\/lite\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=authoruri&utm_content=7%2E0%2E0",
+                "description": "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back.",
+                "title": "Google Analytics for WordPress by MonsterInsights",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hello.php": {
+                "slug": "hello.php",
+                "name": "Hello Dolly",
+                "version": "1.7.2",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/hello-dolly\/",
+                "author": "Matt Mullenweg",
+                "authorURI": "http:\/\/ma.tt\/",
+                "description": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly<\/cite> in the upper right of your admin screen on every page.",
+                "title": "Hello Dolly",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "jetpack\/jetpack.php": {
+                "slug": "jetpack\/jetpack.php",
+                "name": "Jetpack",
+                "version": "13.2.2",
+                "pluginURI": "https:\/\/jetpack.com",
+                "author": "Automattic",
+                "authorURI": "https:\/\/jetpack.com",
+                "description": "Security, performance, and marketing tools made by WordPress experts. Jetpack keeps your site protected so you can focus on more important things.",
+                "title": "Jetpack",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "simple-tags\/simple-tags.php": {
+                "slug": "simple-tags\/simple-tags.php",
+                "name": "TaxoPress",
+                "version": "3.20.0",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/simple-tags\/",
+                "author": "TaxoPress",
+                "authorURI": "https:\/\/taxopress.com",
+                "description": "TaxoPress allows you to create and manage Tags, Categories, and all your WordPress taxonomy terms.",
+                "title": "TaxoPress",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "updraftplus\/updraftplus.php": {
+                "slug": "updraftplus\/updraftplus.php",
+                "name": "UpdraftPlus - Backup\/Restore",
+                "version": "1.24.2",
+                "pluginURI": "https:\/\/updraftplus.com",
+                "author": "UpdraftPlus.Com, DavidAnderson",
+                "authorURI": "https:\/\/updraftplus.com",
+                "description": "Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.",
+                "title": "UpdraftPlus - Backup\/Restore",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "w3-total-cache\/w3-total-cache.php": {
+                "slug": "w3-total-cache\/w3-total-cache.php",
+                "name": "W3 Total Cache",
+                "version": "2.7.0",
+                "pluginURI": "https:\/\/www.boldgrid.com\/totalcache\/",
+                "author": "BoldGrid",
+                "authorURI": "https:\/\/www.boldgrid.com\/",
+                "description": "The highest rated and most complete WordPress performance plugin. Dramatically improve the speed and user experience of your site. Add browser, page, object and database caching as well as minify and content delivery network (CDN) to WordPress.",
+                "title": "W3 Total Cache",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-mail-smtp\/wp_mail_smtp.php": {
+                "slug": "wp-mail-smtp\/wp_mail_smtp.php",
+                "name": "WP Mail SMTP",
+                "version": "4.0.1",
+                "pluginURI": "https:\/\/wpmailsmtp.com\/",
+                "author": "WP Mail SMTP",
+                "authorURI": "https:\/\/wpmailsmtp.com\/",
+                "description": "Reconfigures the <code>wp_mail()<\/code> function to use Gmail\/Mailgun\/SendGrid\/SMTP instead of the default <code>mail()<\/code> and creates an options page to manage the settings.",
+                "title": "WP Mail SMTP",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "blankslate": {
+                "slug": "blankslate",
+                "themeName": "BlankSlate",
+                "version": "2024.1",
+                "themeURI": "https:\/\/opencollective.com\/blankslate",
+                "parentTheme": false,
+                "template": "blankslate",
+                "stylesheet": "blankslate",
+                "description": "Donate: https:\/\/opencollective.com\/blankslate. Learn: https:\/\/blankslate.me\/. BlankSlate is the definitive WordPress boilerplate starter theme. I've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability, with no intrusive visual CSS styles added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https:\/\/github.com\/bhadaway\/blankslate\/issues. Thank you.",
+                "author": "Bryan Hadaway",
+                "authorURI": "https:\/\/opencollective.com\/blankslate#section-contributors",
+                "tags": [
+                    "accessibility-ready",
+                    "one-column",
+                    "two-columns",
+                    "custom-menu",
+                    "featured-images",
+                    "microformats",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.3",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.6",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "User&#039;s blog"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20240403_usersblog_0992e889c4a3bf857347_20240403101413_installer-backup.php",
+    "package_name": "20240403_usersblog_0992e889c4a3bf857347_20240403101413_archive.zip",
+    "package_hash": "0992e88-03101413",
+    "package_notes": ""
+}
