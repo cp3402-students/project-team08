@@ -23,20 +23,19 @@ jobs:
     steps:
       - checkout
 
-      # Ensure that deploy.sh exists and has execute permission
+      # Ensure that deploy.bat exists and has execute permission
       - run:
-          name: Check deploy.sh file
+          name: Check deploy.bat file
           command: |
-            ls -l .circleci/deploy.sh
-            chmod +x .circleci/deploy.sh
+            if not exist .circleci\deploy.bat (
+              echo "deploy.bat does not exist"
+              exit 1
+            )
 
-      # Debugger
+      # Execute deploy.bat
       - run:
           name: Deploy to Website via SSH
-          command: |
-            set -x
-            .circleci/deploy.sh
-            set +x
+          command: .circleci\deploy.bat
 
 workflows:
   build_and_test:
