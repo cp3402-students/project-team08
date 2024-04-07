@@ -5,4 +5,4 @@ cd /opt/bitnami/apache2/htdocs/
 git pull origin main
 
 # Restart Apache web server to apply changes
-sudo /opt/bitnami/ctlscript.sh restart apache
+/opt/bitnami/ctlscript.sh restart apache
