@@ -37,6 +37,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: floralwhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: black;
+    
 }
 
 #menu ul {
