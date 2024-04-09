@@ -15,10 +15,19 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Create SSH Directory
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+      - name: Create known_hosts file if not exists
+        run: |
+          touch ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
       - name: Update SSH Known Hosts
         run: |
           ssh-keyscan -H 13.211.5.114 >> ~/.ssh/known_hosts
-          chmod 644 ~/.ssh/known_hosts
 
       - name: Deploy Theme to WordPress
         run: |
