@@ -15,6 +15,11 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Update SSH Known Hosts
+        run: |
+          ssh-keyscan -H 13.211.5.114 >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
       - name: Deploy Theme to WordPress
         run: |
           scp -r blankslate admin@13.211.5.114:/var/www/html/wp-content/themes
