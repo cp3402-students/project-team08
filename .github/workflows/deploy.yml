@@ -36,4 +36,4 @@ jobs:
 
       - name: Deploy Theme to WordPress
         run: |
-          scp -r blankslate bitnami@13.211.5.114:/var/www/html/wp-content/themes
+          scp -r blankslate bitnami@13.211.5.114:/opt/bitnami/wordpress/wp-content/themes
