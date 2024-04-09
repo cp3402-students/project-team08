@@ -12,7 +12,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          node-version: '20'
 
       - name: Deploy Theme to WordPress
         run: |
-          scp -r path/to/your/wordpress/theme user@your-server-ip:/path/to/wordpress/wp-content/themes
+          scp -r blankslate admin@13.211.5.114:/var/www/html/wp-content/themes
