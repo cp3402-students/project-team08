@@ -167,13 +167,14 @@ body .is-layout-flex {
 .shine-button {
     padding: 2px 20px;
     font-size: 30px;
-    color: white;
+    color: rgb(3, 245, 104);
     text-decoration: none; 
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
     border: 2px solid black; 
     border-radius: 10px; 
+    background-color: black;
 }
 
 /* Neon border effect */
