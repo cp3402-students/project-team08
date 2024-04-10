@@ -38,20 +38,37 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #b8e5ff;
-    background-image: linear-gradient(to right, #b8e5ff, #2d2fa1);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: black;
-    
+    background: linear-gradient(to right, #b8e5ff, #2d2fa1);
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
 }
 
 #menu ul {
     display: flex;
     list-style: none;
+    margin: 0; 
+    padding: 0; 
 }
 
 #menu ul li {
     margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+/* Style for menu links */
+#menu ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s; 
+}
+
+/* Hover effect for menu links */
+#menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.5); 
 }
 
 #search {
