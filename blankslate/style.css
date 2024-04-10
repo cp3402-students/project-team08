@@ -55,3 +55,25 @@ body {
 #search {
     margin-left: auto;
 }
+/* Body paragraph*/
+.wp-container-core-group-layout-1.wp-container-core-group-layout-1 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Layout for flexible content */
+body .is-layout-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Adjustments for block groups */
+.wp-block-group {
+    box-sizing: border-box;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #f9f9f9; 
+}
