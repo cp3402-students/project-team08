@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, #b8e5ff, #2d2fa1);
+    background: linear-gradient(to left, #b8e5ff, #2d2fa1);
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     border: 2px solid black; 
     border-radius: 10px; 
