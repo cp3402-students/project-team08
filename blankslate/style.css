@@ -172,7 +172,7 @@ body .is-layout-flex {
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
-    border: 2px solid black; 
+    border: 2px solid rgb(3, 255, 45); 
     border-radius: 10px; 
     background-color: black;
 }
