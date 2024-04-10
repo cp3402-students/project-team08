@@ -27,6 +27,12 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 <div id="container">
 <main id="content" role="main">
 
+
+<?php
+$upload_dir = wp_get_upload_dir(); // Get uploads directory information
+$image_url = $upload_dir['baseurl'] . 'web_logo-1.jpg'; // Construct the image URL
+?>
+
 <div id="banner">
     <img src="web_logo-1.jpg" alt="Banner Image">
     <h2>Welcome to U3A</h2>
