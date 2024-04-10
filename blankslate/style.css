@@ -157,13 +157,11 @@ body .is-layout-flex {
 .shine-button {
     padding: 10px 20px;
     font-size: 16px;
-    border: none;
-    background-color: #3498db;
     color: white;
+    text-decoration: none; /* Remove default underline for anchor */
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
-    outline: none; 
 }
 
 /* Neon border effect */
@@ -174,8 +172,8 @@ body .is-layout-flex {
     left: -2px; 
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    border: 2px solid #fff;
-    border-radius: 5px; 
+    border: 2px solid #ff38e4;
+    border-radius: 20px;
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -187,7 +185,7 @@ body .is-layout-flex {
 }
 
 @keyframes neon-animation {
-    0% { box-shadow: 0 0 5px 3px #fff, 0 0 10px 6px #00f, 0 0 15px 9px #00f; }
-    100% { box-shadow: 0 0 10px 5px #fff, 0 0 15px 9px #00f, 0 0 20px 12px #00f; }
-} 
+    0% { box-shadow: 0 0 5px 3px #fff, 0 0 10px 6px rgb(3, 189, 142), 0 0 15px 9px #00f; }
+    100% { box-shadow: 0 0 10px 5px #fff, 0 0 15px 9px #00f, 0 0 20px 12px rgb(92, 3, 62); }
+}
 /* End - Logan's Fancy Button */
