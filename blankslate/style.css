@@ -55,7 +55,7 @@ body {
 #search {
     margin-left: auto;
 }
-/* Body paragraph*/
+/* Container 1*/
 .wp-container-core-group-layout-1.wp-container-core-group-layout-1 {
     flex-direction: column;
     align-items: flex-start;
@@ -76,4 +76,43 @@ body .is-layout-flex {
     border: 1px solid #ccc; 
     border-radius: 5px; /* Add border radius for rounded corners */
     background-color: #f9f9f9; 
+}
+
+/* Container 2 */
+.wp-container-core-columns-layout-2.wp-container-core-columns-layout-2 {
+    flex-wrap: nowrap;
+}
+
+/* Layout for flexible content */
+body .is-layout-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Additional adjustments for layout flexibility */
+@media (min-width: 782px) {
+    .wp-block-columns {
+        flex-wrap: nowrap;
+    }
+}
+
+/* Adjustments for block columns */
+.wp-block-columns {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: normal;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+.container {
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.3);
 }
