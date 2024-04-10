@@ -29,7 +29,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Additional Styles */
 body {
-    background-color: rgb(188, 183, 214); /* Change this to the desired background color */
+    background-color: rgb(185, 229, 255); /* Change this to the desired background color */
 }
 
 /* Horizontal Menu Layout */
@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: floralwhite;
+    background-color:rgb(24, 23, 99);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: black;
     
@@ -73,9 +73,9 @@ body .is-layout-flex {
     box-sizing: border-box;
     padding: 20px; 
     margin-bottom: 20px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #e1e2ef; 
     border-radius: 5px; /* Add border radius for rounded corners */
-    background-color: #f9f9f9; 
+    background-color: #b497d6; 
 }
 
 /* Container 2 */
