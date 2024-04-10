@@ -30,6 +30,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* Additional Styles */
 body {
     background-color: rgb(185, 229, 255); /* Change this to the desired background color */
+    
 }
 
 /* Horizontal Menu Layout */
@@ -37,7 +38,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: linear-gradient(to right, #b8e5ff, #2d2fa1);
+    background-color: #b8e5ff;
+    background-image: linear-gradient(to right, #b8e5ff, #2d2fa1);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: black;
     
