@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(24, 23, 99);
+    background-color: linear-gradient(to right, #b8e5ff, #2d2fa1);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: black;
     
