@@ -26,3 +26,12 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 </header>
 <div id="container">
 <main id="content" role="main">
+
+// Header banner 
+<div id="banner">
+    <img src="web_logo-1.jpg" alt="Banner Image">
+    <h2>Welcome to U3A</h2>
+    <p>Explore our coureses</p>
+</div>
+
+</div>
