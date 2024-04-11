@@ -42,9 +42,8 @@ This document outlines the development and deployment workflow for our project. 
 1. **Common Deployment Issues:**
    - When setting up GitHub Actions:
      - Ensure you have all appropriate permissions granted in AWS
-     - Don't forget to add SSH .pem key to GitHub Repository 
+     - Don't forget to add the SSH .pem key to GitHub Repository 
      - Ensure you include the correct file path location of the AWS theme file in [.github/workflows/deploy.yml]
-
 
 
 ## Conclusion
