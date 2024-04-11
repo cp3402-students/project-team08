@@ -19,7 +19,7 @@ This document outlines the development and deployment workflow for our project. 
 
 ## Deployment Process
 1. **GitHub Actions Setup:**
-   - We configured GitHub Actions workflow for automated deployment this process was triggered by pushes to the main branch.   
+   - We configured GitHub Actions workflow for automated deployment, this process was triggered by pushes to the main branch.   
    
 3. **Testing Procedures:**
    - We tested the changes in the local theme environment to ensure compatability.
