@@ -61,57 +61,7 @@ body {
     margin-right: 20px; /* Adjust spacing between menu items */
 }
 
-/* ---------------------------------------------------------------------------------------
-	05. NAVIGATION
---------------------------------------------------------------------------------------- */
-#nav-above,
-#nav-below {
-	padding: 15px 0;
-	margin: 0 0 40px;
-	border-top: 1px solid #EEE;
-	border-bottom: 1px solid #EEE;
-}
-.nav-previous,
-.nav-next {
-	width: 45%;
-	max-width: 150px;
-}
-.nav-previous {
-	float: left;
-}
-.nav-next {
-	float: right;
-}
-.nav-previous a,
-.nav-next a {
-	display: block;
-	color: #FFF;
-	text-align: center;
-	text-transform: uppercase;
-	height: 35px;
-	line-height: 35px;
-	background: #676767;
-}
-.nav-previous a:hover,
-.nav-next a:hover {
-	color: #FFF;
-	background: #F47E3E;
-}
-.nav-previous a .meta-nav,
-.nav-next a .meta-nav {
-	padding: 0 5px;
-}
-.nav-previous a .meta-icon,
-.nav-next a .meta-icon {
-	top: -1px;
-	position: relative;
-}
-.nav-previous a:hover .meta-icon,
-.nav-next a:hover .meta-icon {
-}
-.nav-previous i,
-.nav-next i {
-}
+
 /* Style for menu links */
 #menu ul li a {
     color: white; 
