@@ -14,7 +14,7 @@ This document outlines the development and deployment workflow for our project. 
 
 ## Development Process
 1. **Local Development Workflow:**
-   - We would test changes to the theme locally through our local theme environment which we hosted using XAMPP. Before making these changes to the live site code we confirmed the changes with your group.
+   - We would test changes to the theme locally through our local theme environment which we hosted using XAMPP. Before making these changes to the live site code we confirmed the changes with our group.
    
 
 ## Deployment Process
