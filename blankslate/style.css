@@ -163,45 +163,50 @@ body .is-layout-flex {
     border: 2px solid black; 
     border-radius: 10px; 
 }
-/* Start - Call to action button */
+
+/* Button styling */
 .shine-button {
-    padding: 2px 20px;
-    font-size: 30px;
-    color: rgb(3, 245, 104);
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
     text-decoration: none; 
+    background-color: #3498db; 
+    border: none; 
+    border-radius: 20px; 
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
-    border: 2px solid rgb(3, 255, 45); 
-    border-radius: 10px; 
-    background-color: black;
-    align-items: center;
-    margin: 0 auto; 
-    display: inline-block; 
 }
 
 /* Neon border effect */
-.neon-border::before {
+.shine-button::before,
+.shine-button::after {
     content: '';
     position: absolute;
-    top: -2px; 
-    left: -2px; 
+    top: -2px;
+    left: -2px;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    border: 2px solid #ff38e4;
-    border-radius: 20px;
+    border-radius: 20px; 
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.neon-border:hover::before {
-    opacity: 1;
-    transform: rotate(45deg); 
-    animation: neon-animation 1.5s infinite alternate; 
+.shine-button::before {
+    border: 2px solid #fff;
 }
 
-@keyframes neon-animation {
-    0% { box-shadow: 0 0 5px 3px #1ef816, 0 0 10px 6px rgb(3, 189, 142), 0 0 15px 9px #00f; }
-    100% { box-shadow: 0 0 10px 5px #ff6f6f, 0 0 15px 9px #00f, 0 0 20px 12px rgb(92, 3, 62); }
+.shine-button::after {
+    border: 2px solid black; 
+    animation: border-expand 1.5s infinite;
 }
-/* End - Call to action button */
+
+.shine-button:hover::before,
+.shine-button:hover::after {
+    opacity: 1;
+}
+
+@keyframes border-expand {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.02); }
+}
