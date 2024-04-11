@@ -142,13 +142,6 @@ body .is-layout-flex {
     border-radius: 5px; 
     background-color: #f9f9f9; 
 }
-.wp-container-core-columns-layout-2.wp-container-core-columns-layout-2 {
-    transition: transform 0.5s ease;
-}
-
-.wp-container-core-columns-layout-2.wp-container-core-columns-layout-2:hover {
-    transform: scale(1.1);
-}
 
 #banner {
     background-color: #b8e5ff;
