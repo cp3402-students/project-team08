@@ -166,6 +166,9 @@ body .is-layout-flex {
 
 /* Button styling */
 .shine-button {
+    padding: 2px 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     font-size: 16px;
     color: white;
@@ -176,6 +179,12 @@ body .is-layout-flex {
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
+    border: 2px solid rgb(3, 255, 45); 
+    border-radius: 10px; 
+    background-color: black;
+    align-items: center;
+    margin: 0 auto; 
+    display: inline-block; 
 }
 
 /* Neon border effect */
