@@ -15,7 +15,6 @@ $image_url = $upload_dir['baseurl'] . 'web_logo-1.jpg'; // Construct the image U
 ?>
 
 <div id="banner" style="height: 50%;">
-    <button class="shine-button">Start with us now!</button>
     <img src="http://u3aonline.com/wp-content/uploads/2024/04/web_logo-1.jpg" alt="Banner Image">
 </div>
 <!-- Banner end-->
@@ -30,15 +29,8 @@ $image_url = $upload_dir['baseurl'] . 'web_logo-1.jpg'; // Construct the image U
 <div id="container">
 <main id="content" role="main">
 
-
-<!-- Banner start-->
-<?php
-$upload_dir = wp_get_upload_dir(); // Get uploads directory information
-$image_url = $upload_dir['baseurl'] . 'web_logo-1.jpg'; // Construct the image URL
-?>
-
-<div id="banner" style="height: 50%;">
-    <button class="shine-button">Start with us now!</button>
-    <img src="http://u3aonline.com/wp-content/uploads/2024/04/web_logo-1.jpg" alt="Banner Image">
+<!-- Call to action button -->
+<div id="call-to-action"></div>
+<button class="shine-button">Start with us now!</button>
 </div>
-<!-- Banner end-->
+<!-- Call to action button -->
