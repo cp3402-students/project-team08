@@ -73,7 +73,7 @@ body {
 
 /* Hover effect for menu links */
 #menu ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.5); 
+    background-color: rgba(108, 255, 128, 0.5); 
 }
 
 #search {
@@ -103,7 +103,7 @@ body .is-layout-flex {
     margin-bottom: 20px; 
     border: 1px solid #e1e2ef; 
     border-radius: 5px; /* Add border radius for rounded corners */
-    background-color: #b497d6; 
+    background-color: #fcfcfc; 
     border: 2px solid black; 
     border-radius: 10px; 
 }
@@ -163,7 +163,7 @@ body .is-layout-flex {
     border: 2px solid black; 
     border-radius: 10px; 
 }
-/* Start - Logan's Fancy Button */
+/* Start - Call to action button */
 .shine-button {
     padding: 2px 20px;
     font-size: 30px;
@@ -175,6 +175,7 @@ body .is-layout-flex {
     border: 2px solid rgb(3, 255, 45); 
     border-radius: 10px; 
     background-color: black;
+    align-items: center;
 }
 
 /* Neon border effect */
@@ -201,4 +202,4 @@ body .is-layout-flex {
     0% { box-shadow: 0 0 5px 3px #1ef816, 0 0 10px 6px rgb(3, 189, 142), 0 0 15px 9px #00f; }
     100% { box-shadow: 0 0 10px 5px #ff6f6f, 0 0 15px 9px #00f, 0 0 20px 12px rgb(92, 3, 62); }
 }
-/* End - Logan's Fancy Button */
+/* End - Call to action button */
