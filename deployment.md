@@ -32,7 +32,7 @@ This document outlines the development and deployment workflow for our project. 
    - We used Trello to track tasks and make plans for meetings and task completion.
    
 2. **Communication Channels:**
-   - We primarily used Discord for all communication, but we also linked our GitHub to our groups Slack channel so all members are notified when a member commits changes.
+   - We primarily used Discord for all communication, but we also linked our GitHub to our [Slack Group Channel](https://itatjcu.slack.com/archives/G0PC1RR17) so all members are notified when a member commits changes.
 
 ## Automation
 1. **Continuous Deployment with GitHub Actions:**
