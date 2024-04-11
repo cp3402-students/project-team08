@@ -200,7 +200,12 @@ body .is-layout-flex {
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
-
+#call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;  To adjust the height of the container */
+}
 .shine-button::before {
     border: 2px solid #fff;
 }
