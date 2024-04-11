@@ -1,4 +1,4 @@
-# Project Name
+# project-team08
 
 ## Overview
 Welcome to the project! This repository contains the source code and documentation for project-team08. Here's a brief overview of what you'll find:
