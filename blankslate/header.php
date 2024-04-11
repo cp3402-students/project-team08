@@ -24,7 +24,10 @@ $image_url = $upload_dir['baseurl'] . 'web_logo-1.jpg'; // Construct the image U
 
 <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
-
+<div id="search">
+    <div class="login_signup_btn_main">
+        <a href="/my-account/">Login / Signup </a>
+    </div>
     <?php get_search_form(); ?>
 </div>
 </nav>
