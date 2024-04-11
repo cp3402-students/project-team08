@@ -157,7 +157,7 @@ body .is-layout-flex {
 }
 #banner img {
     max-width: 100%; 
-    height: auto; 
+    height: 35%; 
     display: block; 
     margin: 0 auto; 
     border: 2px solid black; 
@@ -224,7 +224,4 @@ body .is-layout-flex {
 @keyframes border-expand {
     0% { transform: scale(1); }
     100% { transform: scale(1.02); }
-}
-#banner {
-    height: 35%; 
 }
