@@ -225,3 +225,6 @@ body .is-layout-flex {
     0% { transform: scale(1); }
     100% { transform: scale(1.02); }
 }
+#banner {
+    height: 35%; 
+}
