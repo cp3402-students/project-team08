@@ -10,10 +10,10 @@ Welcome to the project! This repository contains the source code and documentati
 - [Link to Live Site](http://u3aonline.com/)
 
 ## Trello Board
-[Link to Trello Board](https://trello.com/b/fK7fAHKP/cp-3402-assignment-2-team-08) - Use our Trello board to track tasks, features, and progress.
+[Link to Trello Board](https://trello.com/b/fK7fAHKP/cp-3402-assignment-2-team-08) - Use our Trello board to track tasks and view planned meeting times.
 
 ## GitHub Repository
-[Link to GitHub Repository](https://github.com/cp3402-students/project-team08.git) - Explore the source code, submit issues, and contribute to the project.
+[Link to GitHub Repository](https://github.com/cp3402-students/project-team08.git) - Explore the source code and contribute to the project.
 
 ## Slack Channel
 [Link to Slack Channel](https://itatjcu.slack.com/archives/G0PC1RR17) - Join our Slack channel discussions, collaboration and to keep up to date with commits.
