@@ -16,10 +16,10 @@ Welcome to the project! This repository contains the source code and documentati
 [Link to GitHub Repository](https://github.com/cp3402-students/project-team08.git) - Explore the source code, submit issues, and contribute to the project.
 
 ## Slack Channel
-[Link to Slack Channel](https://itatjcu.slack.com/archives/G0PC1RR17) - Join our Slack channel for real-time discussions and collaboration.
+[Link to Slack Channel](https://itatjcu.slack.com/archives/G0PC1RR17) - Join our Slack channel discussions, collaboration and to keep up to date with commits.
 
 ## Discord Server
-[Link to Discord Server](https://discord.gg/64xuWGpYqm) - Connect with the community and discuss project-related topics on Discord.
+[Link to Discord Server](https://discord.gg/64xuWGpYqm) - Connect with the team08 and discuss project-related topics on Discord.
 
 ## Live Site
 [Link to Live Site](http://u3aonline.com/) - Visit our live site to see the project in action.
