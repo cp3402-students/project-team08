@@ -176,6 +176,8 @@ body .is-layout-flex {
     border-radius: 10px; 
     background-color: black;
     align-items: center;
+    margin: 0 auto; 
+    display: inline-block; 
 }
 
 /* Neon border effect */
