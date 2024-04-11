@@ -8,7 +8,17 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="wrapper" class="hfeed">
-<header id="header" role="banner">
+<!-- Banner start-->
+<?php
+$upload_dir = wp_get_upload_dir(); // Get uploads directory information
+$image_url = $upload_dir['baseurl'] . 'web_logo-1.jpg'; // Construct the image URL
+?>
+
+<div id="banner" style="height: 50%;">
+    <button class="shine-button">Start with us now!</button>
+    <img src="http://u3aonline.com/wp-content/uploads/2024/04/web_logo-1.jpg" alt="Banner Image">
+</div>
+<!-- Banner end-->
 <div id="branding">
 
 
