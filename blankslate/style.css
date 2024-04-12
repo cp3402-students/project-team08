@@ -55,12 +55,23 @@ body {
     display: flex;
     list-style: none;
     margin: 0; 
-    padding: 0; 
+    padding: 0;
+    justify-content: center; /* Center the menu items */
 }
 
 #menu ul li {
     margin-right: 20px; /* Adjust spacing between menu items */
+    font-size: 16px; /* Set font size for menu items */
 }
+
+/* Media for smaller screens */
+@media (max-width: 768px) {
+    #menu ul li {
+        margin-right: 10px; /* Reduce spacing between menu items for smaller screens */
+        font-size: 14px; /* Reduce font size for menu items on smaller screens */
+    }
+}
+
 
 
 /* Style for menu links */
