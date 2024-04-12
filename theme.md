@@ -31,7 +31,7 @@ Palette:
   left to right. This choice was deliberate to allow stronger style choices for different items within the same row. Code provided below:
   background: linear-gradient(to left, #b8e5ff, #6668df);
 
-- Please note that the "shine button" has been superseded by a more apprpriately named "call to action button". The code was left it as it was used as an experimental button that was not put into production, but may one day if more time is to be allocated. 
+- Please note that the "shine button" has been superseded by a more apprpriately named "call to action button". The code was left it as it was used as an experimental button that was not put into production, but may one day if more time is to be allocated. "shine button" was further edited in the additional css section on the live site to make the hover appear smoother. The main "call to action button" font was edited in the additional css to match with the "login/signup" button.
 
 - The @media line is to resize the website for smaller screens such as tablets, as the website had difficulties in the early and mid stages of production. 
 
