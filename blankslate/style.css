@@ -35,7 +35,8 @@ body {
 
 /* Horizontal Menu Layout */
 #menu {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to left, #b8e5ff, #6668df);
