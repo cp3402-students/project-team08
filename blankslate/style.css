@@ -60,14 +60,13 @@ body {
 }
 
 #menu ul li {
-    margin-right: 20px;
-    font-size: 16px; 
+    margin-right: 30px;
+    font-size: 20px; 
 }
 
 /* Style for dropdown menu */
 #menu ul ul {
     display: none;
-    margin: 10px 0; /* Adjust vertical margin for spacing */
     position: absolute;
     background-color: #fff;
     padding: 10px;
