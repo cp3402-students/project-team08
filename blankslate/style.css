@@ -68,7 +68,6 @@ body {
 #menu ul ul {
     display: none;
     position: absolute;
-    background-color: #fff;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
