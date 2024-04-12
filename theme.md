@@ -10,8 +10,7 @@ Downloaded on 31st, March, 2024
 - A starting comment and ending comment has been set as a rule to maintain structure.
 
 !-- Call to action button --
-    Div button ...
-        code example ...
+
 !-- End of Call to action button --
 
 ## Colour 
