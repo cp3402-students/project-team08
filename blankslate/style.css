@@ -74,13 +74,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for dropdown menu items */
-#menu ul ul li {
-    display: block;
-    margin: 10px 0; 
-    font-size: 23px;
-    transition: outline 0.3s; 
-}
+
 
 /* Outline effect when hovering over dropdown menu items */
 #menu ul ul li:hover {
