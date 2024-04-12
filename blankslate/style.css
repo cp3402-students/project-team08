@@ -78,8 +78,14 @@ body {
 /* Style for dropdown menu items */
 #menu ul ul li {
     display: block;
-    margin: 5px 0;
+    margin: 10px 0; 
     font-size: 14px;
+    transition: outline 0.3s; 
+}
+
+/* Outline effect when hovering over dropdown menu items */
+#menu ul ul li:hover {
+    outline: 2px solid #666; 
 }
 
 /* Show dropdown menu when hovering over parent menu item */
