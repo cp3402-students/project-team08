@@ -172,7 +172,7 @@ body .is-layout-flex {
 .login_signup_btn_main a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2df882; 
+    background-color: #084269; 
     color: #fff; 
     text-decoration: none;
     border-radius: 5px; 
@@ -180,7 +180,7 @@ body .is-layout-flex {
 }
 
 .login_signup_btn_main a:hover {
-    background-color: #2980b9;
+    background-color: #2df882;
 }
 /* end login button */
 /* Button styling */
