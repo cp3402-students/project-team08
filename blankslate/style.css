@@ -197,7 +197,7 @@ body .is-layout-flex {
     border-radius: 20px; 
     position: relative;
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: background-color 0.3s ease; 
     border: 2px solid rgb(3, 255, 45); 
     border-radius: 10px; 
     background-color: black;
@@ -237,7 +237,7 @@ body .is-layout-flex {
 
 .shine-button:hover::before,
 .shine-button:hover::after {
-    opacity: 1;
+    background-color: #2df882;
 }
 
 @keyframes border-expand {
