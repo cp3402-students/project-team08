@@ -218,3 +218,33 @@ body .is-layout-flex {
     0% { transform: scale(1); }
     100% { transform: scale(1.02); }
 }
+
+/* css for the style pages  */
+.about_us_page_main{
+    max-width: 1300px;
+    margin: 0 auto;
+    border: unset;
+    background: unset;
+}
+.about_us_page_main .wp-block-column{
+    /* background: #f9f9f9; */
+    padding: 20px 40px
+}
+.about_us_page_main .is-layout-flex{
+    border: unset;
+    background: unset;
+}
+.about_us_page_main h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.about_us_page_main h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.about_us_page_main p{
+    margin: 20px 0;
+}
+.about_us_page_main ul li{
+    margin: 10px 0;
+}
