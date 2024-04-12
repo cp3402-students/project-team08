@@ -42,6 +42,6 @@ Palette:
 
 - Additionally, 2 extra plugins were used to create different forms. "WPforms" plugin was used in order to create a simple form to get in touch with staff for the "contact" page. "WooCommerce" was used to create the "Login/Signup" form including the "my accounts" page. 
 
-- In order to make the theme more structured additional css codes were added on the live site.
+- Essentially, to make the theme more structured additional css codes were added on the live site.
 
 
