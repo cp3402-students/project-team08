@@ -37,6 +37,7 @@ $image_url = $upload_dir['baseurl'] . 'web_logo-1.jpg'; // Construct the image U
 
 <!-- Call to action button -->
 <div id="call-to-action">
-    <button class="shine-button">Start with us now!</button>
+    <a href="/my-account/" class="shine-button">Start with us now!</a>
+
 </div>
 <!-- End of Call to action button -->
