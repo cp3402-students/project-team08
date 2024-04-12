@@ -185,21 +185,61 @@ body .is-layout-flex {
 /* end login button */
 
 /* Button styling */
-/* start login button */
-.login_signup_btn_main a {
-    display: inline-block;
+.shine-button {
+    padding: 2px 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
-    background-color: #240a83; 
-    color: #fff; 
-    text-decoration: none;
-    border-radius: 5px; 
+    font-size: 16px;
+    color: white;
+    text-decoration: none; 
+    background-color: #3498db; 
+    border: none; 
+    border-radius: 20px; 
+    position: relative;
+    overflow: hidden;
     transition: background-color 0.3s ease; 
+    border: 2px solid rgb(3, 255, 45); 
+    border-radius: 10px; 
+    background-color: black;
+    align-items: center;
+    margin: 0 auto; 
+    display: inline-block; 
+ 
 }
 
-.login_signup_btn_main a:hover {
+/* Neon border effect */
+.shine-button::before,
+.shine-button::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-radius: 20px; 
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;  To adjust the height of the container */
+}
+.shine-button::before {
+    border: 2px solid #fff;
+}
+
+.shine-button::after {
+    border: 2px solid black; 
+    animation: border-expand 1.5s infinite;
+}
+
+.shine-button:hover::before,
+.shine-button:hover::after {
     background-color: #2df882;
 }
-
 
 @keyframes border-expand {
     0% { transform: scale(1); }
