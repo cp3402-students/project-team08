@@ -168,7 +168,21 @@ body .is-layout-flex {
     border: 2px solid black; 
     border-radius: 10px; 
 }
+/* start login button */
+.login_signup_btn_main a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2df882; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
 
+.login_signup_btn_main a:hover {
+    background-color: #2980b9;
+}
+/* end login button */
 /* Button styling */
 .shine-button {
     padding: 2px 20px;
