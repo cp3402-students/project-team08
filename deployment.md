@@ -5,8 +5,9 @@ This document outlines the development and deployment workflow for our project. 
 
 ## Development Environment Setup
 1. **Local Development Setup:**
-   - We each installed and configured XAMPP on your local machine and used this as a staging site. 
+   - We each installed and configured XAMPP on our local machine and used this as a staging site. 
    - A useful video to help XAMPP for local WordPress development: [XAMPP WordPress Local setup](https://www.youtube.com/watch?v=XkKadPcPFT4&t=6s&ab_channel=GeekyScript)
+   - A five server has also been set up to view the wordpress site locally, this is incorperated into VS code. 
 
 2. **Version Control Setup:**
    - We each cloned the project repository from GitHub and set up Git locally for version control (our group used Visual Studio Code). 
