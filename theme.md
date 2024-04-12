@@ -1,5 +1,5 @@
 # Theme
-This theme originates from BlankSlate bu Bryan Hadaway.
+This theme originates from BlankSlate by Bryan Hadaway.
 https://wordpress.org/themes/blankslate/ 
 Version: 2024.1, 
 Downloaded on 31st, March, 2024
@@ -7,15 +7,11 @@ Downloaded on 31st, March, 2024
 
 ## Theme coding practice
 - This theme is to cover general structure and has not been used for areas that are prone to change. As an example, the banner is a part of the css/header php, while the home page image is done through wordpress. 
-- A starting comment and ending comment has been set as a rule to maintain structure, 
-  an example is set below.
+- A starting comment and ending comment has been set as a rule to maintain structure.
 
-  <!-- Call to action button -->
-<div id="call-to-action">
-    <a href="/my-account/" class="shine-button">Start with us now!</a>
+!-- Call to action button --
 
-</div>
-<!-- End of Call to action button -->
+!-- End of Call to action button --
 
 ## Colour 
 Palette:
