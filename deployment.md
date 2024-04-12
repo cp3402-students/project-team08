@@ -21,11 +21,15 @@ This document outlines the development and deployment workflow for our project. 
 ## Deployment Process
 1. **GitHub Actions Setup:**
    - We configured GitHub Actions workflow for automated deployment, this process was triggered by pushes to the main branch.   
-   
-3. **Testing Procedures:**
+   - The "deploy.yml" file contains all configurations for github actions. 
+   - The "secrets." function was used to encrypt the AWS SSH key, a tutorial on this funcion is attached below. 
+  
+   https://www.youtube.com/watch?v=WuWsg0Ldess 
+
+2. **Testing Procedures:**
    - We tested the changes in the local theme environment to ensure compatability.
    
-4. **Live Deployment:**
+3. **Live Deployment:**
    - Once testing theme changes locally we eddited the live site code and promoted approved changes.
 
 ## Project Management
@@ -45,7 +49,7 @@ This document outlines the development and deployment workflow for our project. 
      - Ensure you have all appropriate permissions granted in AWS
      - Don't forget to add the SSH .pem key to GitHub Repository 
      - Ensure you include the correct file path location of the AWS theme file in [.github/workflows/deploy.yml]
-
+   -  Originally the group was using Circles.CI between github and AWS lightsail, but due to compatibility issues, Circle CI was dropped from the project. 
 
 ## Conclusion
 This document outlines our development and deployment workflow, ensuring a smooth process for updating the WordPress theme. By following these guidelines and utilising automation, we aim to streamline our development efforts and maintain a reliable live site.
