@@ -67,6 +67,7 @@ body {
 /* Style for dropdown menu */
 #menu ul ul {
     display: none;
+    margin: 10px 0; /* Adjust vertical margin for spacing */
     position: absolute;
     background-color: #fff;
     padding: 10px;
