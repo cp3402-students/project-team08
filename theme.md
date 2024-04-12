@@ -29,6 +29,8 @@ Palette:
 
 - Please note that the "shine button" has been superseded by a more apprpriately named "call to action button". The code was left it as it was used as an experimental button that was not put into production, but may one day if more time is to be allocated. "shine button" was further edited in the additional css section on the live site to make the hover appear smoother. The main "call to action button" font was edited in the additional css to match with the "login/signup" button.
 
+- "Call to action" button was sticking to the horizontal menu line on the top. Using the additional CSS section on the live site, a margin was added to make it separate and easily noticable.
+
 - The @media line is to resize the website for smaller screens such as tablets, as the website had difficulties in the early and mid stages of production. 
 
 - Container 1 and container 2 are for the top and bottom sections of the page. Plans were in place to make a box-grid but was delayed in the production phase. 
@@ -36,5 +38,9 @@ Palette:
 - The hover effects differ for the action button and login button. There is a 0.3 second transition for the login. In future development, please adjust the call-to-action button to match with the login. 
 
 - For curved border edges, all areas have a border-radius of 10px. 
+
+- Additionally, 2 extra plugins were used to create different forms. "WPforms" plugin was used in order to create a simple form to get in touch with staff for the "contact" page. "WooCommerce" was used to create the "Login/Signup" form including the "my accounts" page. 
+
+- Essentially, to make the theme more structured additional css codes were added on the live site.
 
 
