@@ -90,8 +90,11 @@ body {
 /* Show dropdown menu when hovering over parent menu item */
 #menu ul li:hover > ul {
     display: block;
-}
 
+}
+#menu ul li a {
+    color: #ffffff
+}
 
 /* Media for smaller screens */
 @media (max-width: 768px) {
