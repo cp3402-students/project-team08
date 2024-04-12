@@ -218,3 +218,27 @@ body .is-layout-flex {
     0% { transform: scale(1); }
     100% { transform: scale(1.02); }
 }
+
+#menu-menu-1{
+    position: relative;
+}
+
+/* css for the menu */
+#menu-menu-1 ul.sub-menu {
+    position: absolute;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(to left, #b8e5ff, #6668df);
+    padding: 15px;
+    opacity: 0;
+}
+#menu-menu-1 li:hover ul.sub-menu{
+    opacity: 1;
+}
+
+#menu ul.sub-menu li a {
+    padding: 5px 10px;
+    font-size: 15px;
+} (edited)
