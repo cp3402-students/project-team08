@@ -41,3 +41,4 @@ $image_url = $upload_dir['baseurl'] . 'web_logo-1.jpg'; // Construct the image U
 
 </div>
 <!-- End of Call to action button -->
+

@@ -247,3 +247,14 @@ div#branding {
     max-width: 1300px;
     margin: 0 auto;
 }
+
+/* side bar */
+.xoxo {
+    float: left; 
+    width: 200px; 
+    height: 100%; 
+    background-color: #227196;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
