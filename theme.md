@@ -17,7 +17,7 @@ Downloaded on 31st, March, 2024
 Palette:
 - #fff;    : background for posts, documentation, anything with substantial writing
 - #2df882  : highlight/ hover effects
-- #6668df  : background colour for banner
+- #4d4d4d4d  : background colour for banner
 - #333     : footer colour
 - 8ed1fc   : Page background
 
