@@ -56,13 +56,37 @@ body {
     list-style: none;
     margin: 0; 
     padding: 0;
-    justify-content: center; /* Center the menu items */
+    justify-content: center; 
 }
 
 #menu ul li {
-    margin-right: 20px; /* Adjust spacing between menu items */
-    font-size: 16px; /* Set font size for menu items */
+    margin-right: 20px;
+    font-size: 16px; 
 }
+
+/* Style for dropdown menu */
+#menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for dropdown menu items */
+#menu ul ul li {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Show dropdown menu when hovering over parent menu item */
+#menu ul li:hover > ul {
+    display: block;
+}
+
 
 /* Media for smaller screens */
 @media (max-width: 768px) {
